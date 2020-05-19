@@ -1,0 +1,432 @@
+* {  
+margin: 0;
+padding: 0;
+ }
+
+ body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", sans-serif;
+    background: #e8e8e8;
+ }
+
+
+.fundo{
+            background: #F2F2F2;
+            background-size: 100%;
+        }
+
+
+
+#cabecalho01{
+
+	padding: 4px;
+	background: black;
+    border: 0.5px solid black;
+
+}
+ 
+    #areatexto{
+    	text-align: center;
+    	font-size: 18px;
+
+    }
+
+    #h401{
+
+    	color: white;
+    }
+
+
+    #barraprincipal{
+             
+             background-color: #F5DA81;
+             text-align: center;
+
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+
+
+
+    #menu a:link {
+
+        color: #FFF;
+        padding: 4px 50px;
+    }
+
+
+
+    #menu a:hover {
+    color: white;
+    background: black;
+
+}
+
+
+ 
+
+
+    #logotexto{
+
+           letter-spacing: 28px;
+            font-size: 60px;
+            position: relative;
+            top: 12px;
+            font
+
+ }
+
+
+        
+
+        #menu{
+
+            margin-top: 20px;
+               padding: 5px;
+ }
+
+
+ #Coronavirus{
+     width: 100%;
+     background: black;
+
+
+ }
+
+ #coronalogo{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    letter-spacing: 70px;
+ }
+        
+        .titulo{
+            background-color:  #F5DA81;
+            width: 630px;
+            padding: 5px;
+            position: absolute;
+
+                }
+
+        .como{
+            
+            margin-left: 10px;
+           
+        }
+
+        .lm{
+
+             font-size: 22px;
+             color: #2A0A0A;
+        }
+
+        #principal{
+        
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+
+
+        }
+
+        #esq, #dir {
+
+            position: relative;
+            margin-top: 15px;
+            background-color: white; }
+
+    
+
+    #esq{
+
+        width: 640px;
+        height: 575px;
+        float: left;
+        position: absolute;
+        z-index: 99;
+        left: 20px;
+        margin-top: 15px;
+    }
+
+    #dir{
+
+          width: 640px;
+          height: 575px;
+         float: right;
+        position: absolute;
+        right: 20px;
+        margin-top: 15px;
+    }
+
+    
+  
+
+
+#video01{
+    float: left;
+}
+
+#video02{
+    float: right;
+}
+
+#video01, #video02 {
+
+    margin: 20px;
+}
+
+
+
+.clear {
+    clear: both;
+}
+    #divid{
+    
+        width: 400px;
+        background-color: #F5DA81;;
+        margin-top: 47%;
+        margin-bottom: 0px;
+        margin-left: 14px;
+        text-align: center;
+    }
+
+
+    .titvideo{
+        background: white;
+        padding: 15px;
+
+
+    }
+
+
+    #rodape{
+        clear: both;
+        width: 100%;
+        margin-right: 0px;
+        background-color: gray;
+        text-align: center;
+    }
+
+
+
+#container01 {
+
+  
+
+}
+
+
+    #primeira{
+      position: absolute;
+      float: left;
+      background-color: white;
+      display: block;
+      z-index: 999;
+
+    }
+
+
+#segunda{
+      
+      position: absolute;
+      float: right;
+      right: 0px;
+      background-color: white;
+     display: block;
+
+
+
+
+}
+
+
+#primeira, #segunda {
+    
+    width: 600px;
+    padding: 15px;
+    margin: 30px;
+
+}
+
+
+.placa {
+
+    background: #F5DA81;
+    padding: 10px;
+}
+
+
+#imagemplaca {
+   position: relative;
+   right: 9px;
+   top: 5px;
+    margin: 10px;
+}
+
+
+#paragrafoesq{
+       
+       position: relative;
+       top: 15px;
+       margin-bottom: 15px;
+       font-size: 20px;
+       padding: 5px;
+
+    }
+
+.img01 {
+
+    position: relative;
+    top: 15px;
+}
+
+ #paragrafodir{
+
+        position: relative;
+        top: 12px;
+        left: 10px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+
+
+#rodape {
+
+    background-color: black;
+    position: relative;
+    top: 750px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#frdp {
+
+    color: #F5DA81;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+#container02 {
+
+    position: relative;
+     margin:30px;
+     padding:20px;
+     background-color: #F7F8E0;    
+}
+
+.h2c{
+   position: absolute;
+   top:0px;
+   left: 0px;
+    background-color: #DF0101;
+    font-size: 40px;
+    display: inline;
+    padding:5px;
+    margin-top: 0px;    
+}
+
+
+#paracien {
+
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#container03 {
+      
+        position: relative;
+        padding: 10px;
+        height: 330px;
+       background-color: #F7F8E0;
+       margin: 30px;
+
+}
+
+#h2b {
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 40px;
+  background-color: #DF0101;
+  display: inline;
+  padding:5px;
+  z-index: 990;
+
+
+
+}
+
+#paracien02 {
+     position: relative; 
+     top: 70px;
+     left: 10px;
+     font-size: 20px;
+    margin-right: 0px;
+     
+
+}
+
+#imagemflo {
+
+       position: relative;
+       top: 37px;
+       left: 9px;
+}
+
+
+.rodacorona{
+
+background-color: black;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+
+
+
+#pandemiactn {
+        
+        position: relative;
+       background-color: white;
+       margin: 20px;
+       padding: 20px;
+
+}
+
+#pandevideo {
+    position: relative;
+    top: 50px;
+    right: 0px;
+
+}
+
+#entenda {
+
+  background-color: #F5DA81;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+#pantexto {
+    position: relative;
+    width: 760px;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.hast {
+  color: #DF0101;
+}
+
+
